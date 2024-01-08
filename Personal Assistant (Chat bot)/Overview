@@ -1,0 +1,40 @@
+Overview:
+The project comprises three Python scripts: main.py, config.py, and openaitest.py, collectively forming an AI assistant named Jarvis. Jarvis is designed to respond to voice commands, utilizing OpenAI's GPT-3 model for natural language processing.
+
+File Descriptions:
+
+main.py:
+
+Voice-activated AI assistant incorporating SpeechRecognition and OpenAI's GPT-3.
+Functionalities include web browsing, music playback, time reporting, application launching, and chat interactions.
+Responses are stored in a chat history, and OpenAI responses can be saved in a directory named "Openai".
+Specific prompts trigger OpenAI responses, enhancing the chat interaction.
+config.py:
+
+Configuration file containing the placeholder for the OpenAI API key.
+Users are prompted to replace the placeholder with their actual OpenAI API key.
+openaitest.py:
+
+Demonstrates the use of OpenAI's GPT-3 to generate an email resignation template.
+Sends a prompt requesting an email for resignation and prints the detailed email structure provided by GPT-3.
+Project Workflow:
+
+Voice Interaction:
+
+Jarvis listens to voice commands using SpeechRecognition.
+Commands trigger various functionalities, such as opening websites, playing music, and interacting in a chat-like manner.
+Natural Language Processing:
+
+OpenAI's GPT-3 is employed for natural language understanding and generation.
+The openaitest.py script showcases GPT-3's ability to generate specific text, such as an email resignation template.
+Configuration:
+
+The config.py file holds the OpenAI API key, ensuring secure and customizable integration.
+Project Usage:
+
+Users can interact with Jarvis through voice commands for diverse tasks, benefitting from OpenAI's language capabilities for dynamic responses.
+The OpenAI API key can be configured in config.py to enable seamless integration with the GPT-3 model.
+Note:
+
+Users are encouraged to replace the OpenAI API key placeholder in config.py with their actual key for the project to function correctly.
+This project amalgamates voice recognition, natural language processing, and AI-driven responses to create an interactive and versatile AI assistant.
