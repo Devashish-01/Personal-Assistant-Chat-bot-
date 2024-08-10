@@ -24,7 +24,7 @@ def chat(query):
         frequency_penalty=0,
         presence_penalty=0
     )
-    # todo: Wrap this inside of a  try catch block
+    #todo: Wrap this inside of a  try catch block
     say(response["choices"][0]["text"])
     chatStr += f"{response['choices'][0]['text']}\n"
     return response["choices"][0]["text"]
